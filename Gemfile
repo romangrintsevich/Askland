@@ -26,7 +26,7 @@ gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 gem "bootsnap", require: false
 
 group :development, :test do
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "debug"
 end
 
 group :development do
